@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <link rel="bookmark" href="images/favicon.ico" />
+
+    <title>This is the chess of turn, Let's play it together~</title>
+  </head>
+
+  <body style="text-align: center">
+    <p>
+      <a onclick="stop() ">用时：</a
+      ><input type="text" id="timetext" value="00时00分00秒" readonly /><br />
+    </p>
+    <canvas id="canvas"></canvas>
+    <button onclick="rule()">查看规则</button>
+  </body>
+  <script>
+    function rule() {
+      window.location.replace("else/rule.html");
+    }
+  </script>
+</html>
+<script src="js/index.js"></script>
